@@ -31,6 +31,7 @@ CASE
     ELSE 'Не указано'
 END AS 'Тип заказа'
 FROM Sales;
+-- ----------------------------------
 
 /* 
 3. Создайте таблицу “orders”, заполните ее значениями (см. презентацию). 
@@ -71,6 +72,7 @@ CASE order_status
     ELSE 'Order is cancelled state'
 END AS Full_order_status
 FROM orders;
+-- ----------------------------------
 
 /*
 	4. Чем NULL отличается от 0?
