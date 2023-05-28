@@ -6,7 +6,7 @@
 -- Убывание 
 SELECT * FROM staff ORDER BY salary DESC;
 -- Возрастание 
-SELECT * FROM staff ORDER BY age;
+SELECT * FROM staff ORDER BY salary;
 
 /*
 2. Выведите 5 максимальных заработных плат (saraly)
